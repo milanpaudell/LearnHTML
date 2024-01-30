@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+
+    <form>
+
+        <fieldset>
+            <legend>Little login page</legend>
+            <input type="text" placeholder="Typ your name here">First Name <br>
+            <input type="text" value="lastname" readonly >Last Name <br>
+            <input type="password" maxlength="10" required>Password <br>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Example of TextArea</legend>
+            <textarea name="feedback" id="feedback" cols="30" rows="10">Give your feedback</textarea>
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Example of Dropdown option</legend>
+            <select size="3">
+                <option>Bulldog</option>
+                <option>Pug</option>
+                <option selected>Pomeranian</option>
+                <option>Bulldog</option>
+                <option>Bulldog</option>
+            </select>
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Example of Datalist</legend>
+            <input list="breeds">
+            <datalist id="breeds">
+                <option>Bulldog</option>
+                <option>Pug</option>
+                <option>Pomeranian</option>
+                <option>Bulldog</option>
+            </datalist>
+        </fieldset>
+        <br><br> 
+
+        <fieldset>
+            <legend>Example of all input types</legend>
+
+            <input type="checkbox">This is Checkbox <br>
+            <input type="checkbox">This is Checkbox <br>
+            <input type="checkbox">This is Checkbox <br>
+            <input type="radio" name="radio">This is radio button <br>
+            <input type="radio" name="radio">This is radio button 
+            <br> <br>
+
+            <input type="button" value="click me to submit" name="butt">
+            <label for="butt">Normal button</label> <br>
+            <input type="submit" > <br> <br>
+
+            <input type="color"><br><br>
+
+            <input type="date"> <br>
+            <input type="datetime"> <br><br>
+
+            <input type="email"><br><br>
+
+            <input type="file"><br><br>
+
+            <input type="image" src="like.avif" width="300" height="100"><br>
+
+            <input type="number"> <br><br>
+
+            <input type="range"><br><br>
+
+            <input type="reset"><br><br>
+
+            <input type="search"><br><br>
+
+            <input type="url"><br><br>
+
+
+
+        </fieldset>
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
